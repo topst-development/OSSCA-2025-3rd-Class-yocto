@@ -29,6 +29,7 @@
 ---
 
 2. git init과 git init --bare로 만든 directory의 차이점
+
 ![git_bare](image/git_bare.png)
 
 - git bare 사용 예제
@@ -67,6 +68,8 @@ $ cat test.cpp
 
  - **stash 명령어 예제:**
 
+![git_stash](image/git_stash.png)
+
 ```bash
 $ git stash
 $ git stash list
@@ -74,4 +77,9 @@ $ git stash pop # 가장 최근 stash를 적용 및 제거
 $ git stash apply "stash@{0}" # 특정 stash 적용, 윈도우 powershell에서는 "" 필요!!
 ```
 
-![git_stash](image/git_stash.png)
+ - **stash 명령어 사용 이유:**
+    - 현재 작업 중인 내용을 임시로 저장 개념.
+    - 다른 브랜치로 이동해야 할 때, 유용함.
+    - 다만 stash를 사용하면, working directory가 깨끗해지기 때문에, 이어서 작업하려면 git apply를 사용해야 함. (POP은 적용 후 stash에서 제거 및 적용, APPLY는 적용만 함.)
+    - 내가 짠 코드를 임시 저장하고 gpt에게 물어볼 때 유용할 것 같음.
+
