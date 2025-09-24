@@ -11,12 +11,14 @@ git은 학과 팀플 중 add,commit,pull,push만 접해보고 이외엔 잘 모�
 gitinit.md를 작성 후 커밋해보았다.
 ![alt text](./img/image-1.png)
 ### git init --bare
-- 작업 트리가 없는 저장소 이다. 팀원이 push/pull하는 공유 저장소로 쓰일 수 있다. git init은 로컬 개발용 저장소와 같은 특징과 다르다.
+- 작업 트리가 없는 저장소이다. 팀원이 push/pull하는 공유 저장소로 쓰일 수 있다. --bare와 다르게 git init은 로컬 개발용 저장소가 될 수 있다.
 ![alt text](./img/image-2.png)![alt text](./img/image-3.png)
+
 위에서 git-init.md를 편집/커밋했던 작업 디렉토리(prac_git-init)의 원격 저장소로 로컬 bare 저장소(prac_git-bare)를 등록해본다.
-![alt text](./img/image-4.png)![alt text](./img/image-5.png)
+![alt text](./img/image-4.png)![alt text](./img/image-5.png)  
+
 작업 트리에서 main 브랜치 커밋을 bare 저장소의 main 브랜치로 푸시해 새 브랜치가 생겼다.
-![alt text](./img/image-6.png)
+
 bare 저장소는 작업 트리가 없어 파일이 직접 안보이고, clone해보면 확인할 수 있다.
 ![alt text](./img/image-7.png)
 ### git stash
@@ -29,3 +31,4 @@ bare 저장소는 작업 트리가 없어 파일이 직접 안보이고, clone�
 
     stash pop으로 변경 사항을 작업 트리에 적용했다. 동시에 stash list에서 삭제되고, apply는 삭제되지않고 복사하여 남겨놓는 기능이다.
     ![alt text](./img/image-9.png)
+
