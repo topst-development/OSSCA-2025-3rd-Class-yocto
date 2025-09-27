@@ -1,7 +1,8 @@
-[자기소개]
+[Introduce]
 안녕하세요.
-자동차 1차사에서 AUTOSAR Platform (차량 BSW) 개발자 정지원 입니다.
-나이는 만 25세이고, 여자입니다.
+서울과학기술대학교 졸업 후,
+자동차 1차사에서 AUTOSAR Platform(차량 BSW)을 개발하고 있는 정지원 입니다.
+나이는 만 26세이고, 여자입니다.
 
 MCU 기반 차량용 ASW 개발 경험(2년)을 바탕으로 현재 AUTOSAR BSW를 담당하고 있습니다.
 올해 업무적으로 Classic AUTOSAR 기반 제어기를 담당함으로써,
@@ -17,7 +18,27 @@ MCU 기반 차량용 ASW 개발 경험(2년)을 바탕으로 현재 AUTOSAR BSW�
 이러한 자동화 및 차세대 차량 표준에 관심을 가지게 되었습니다.
 이에 따라 Yocto open source project에 지원하게 되었습니다.
 
-[Like]
-아기, 둘리!
+[Skill]
+Programming Language : C/C++, Python
+Debugging Tool - Trace32
 
+[Natural Language]
+한국어(모국어)
+English(적당)
+
+[Like]
+둘리!
+아기
+알고리즘 문제해결
+부가티 자동차
+
+[강의]
+Austion Kim 리눅스 커널 강의 듣고 있습니다.
+아직은 걸음마 수준입니다. ㅎㅎ
+
+[좋아하는 구절]
+우리함께 세계제일
+(재직 중인 회사 Logo)
+ 
+[포부]
 Linux 및 Yocto는 응애 수준이지만 잘 부탁드립니다!
