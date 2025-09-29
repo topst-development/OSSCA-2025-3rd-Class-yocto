@@ -14,3 +14,9 @@
 
 ----
 #### stash
++ stash란? 아직 마무리하지 않은 작업이라 commit 하고 싶지 않지만 브랜치를 전환해야할 때 사용하는 명령어이다.
++ 이를 통해 아직 완료하지 않은 일을 commit 하지 않고 나중에 다시 꺼내와 마무리할 수 있다.
++ 기본으로는 tracked 파일 변경만 저장하지만, 새 파일까지 넣으려면 -u, 무시된 파일까지 전부면 -a를 사용하여 저장할 수 있다.
+<img width="721" height="432" alt="image" src="https://github.com/user-attachments/assets/369acb31-f69a-45da-a5d4-4c15a5d23d64" />
+<img width="641" height="329" alt="image" src="https://github.com/user-attachments/assets/2b596e60-c5f0-488a-bda7-0516bbcbf34d" />
+<img width="660" height="78" alt="image" src="https://github.com/user-attachments/assets/e94330ce-ce1f-4a5e-a747-b5eafe9396ac" />
